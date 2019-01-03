@@ -202,6 +202,11 @@ namespace Microsoft.AspNetCore.Mvc.Rendering
         public IView View { get; set; }
 
         /// <summary>
+        /// Gets or sets the <see cref="ViewFeatures.ViewDescriptor"/>.
+        /// </summary>
+        public ViewDescriptor ViewDescriptor { get; set; }
+
+        /// <summary>
         /// Gets or sets the <see cref="ViewDataDictionary"/>.
         /// </summary>
         public ViewDataDictionary ViewData { get; set; }
