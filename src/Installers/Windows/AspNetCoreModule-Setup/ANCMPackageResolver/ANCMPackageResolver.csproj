@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <PackageReference Remove="Internal.AspNetCore.Sdk" />
-    <PackageReference Include="Microsoft.AspNetCore.AspNetCoreModule" Version="$(MicrosoftAspNetCoreAspNetCoreModulePackageVersion)" />
-    <PackageReference Include="Microsoft.AspNetCore.AspNetCoreModuleV2" Version="$(MicrosoftAspNetCoreAspNetCoreModuleV2PackageVersion)" />
+    <PackageReference Include="Microsoft.AspNetCore.AspNetCoreModule" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.AspNetCoreModuleV2" Version="2.2.0" />
   </ItemGroup>
 
   <PropertyGroup>
